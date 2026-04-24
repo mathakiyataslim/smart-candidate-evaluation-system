@@ -1,3 +1,35 @@
+** Modules Implemented **
+
+1. Candidate Module (CRUD)
+- Create Candidate (Name, Email, Phone, Resume Upload)
+- Read / List Candidates
+- View Candidate Details
+- Update Candidate Information
+- Delete Candidate
+
+ ** Features **
+- Resume upload (PDF/DOC)
+- Form validation
+- Clean MVC structure
+
+ 2. Evaluation Module (CRUD)
+- Add Evaluation for each candidate
+- Read evaluations with round-wise data
+- Update feedback and rating
+- Delete evaluation records
+
+** Evaluation Rounds **
+- HR Round (Rating + Feedback)
+- Technical Round (Rating + Feedback)
+- Task Round (Rating + Feedback)
+
+
+
+ ** Relationship **
+- One Candidate → Many Evaluations
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
